@@ -30,8 +30,7 @@ body{
 
 #navbar {
     display: flex;
-    background-color: rgb(0, 0, 0, 0.5);
-    /* opacity: 0.7; */
+    background-color: rgb(0, 0, 0, 0.5);   
     color: #ffff;
     justify-content: center;
     position: fixed;
@@ -126,17 +125,37 @@ body{
 }
 
 .socials{
-    display: flex;
-    
+    display: flex;    
 }
 .socials i {
     padding: 0;
     margin: 0.5rem;
     font-size: 1.7rem;
-    cursor: pointer;
-    /* background-color: #919496;
-    border-radius: 0.5rem;   */    
+    cursor: pointer;      
 }
+
+.fa-instagram::before{
+    background-color: #919496;
+    width: 20px;
+    border: #919496 solid 5px;
+    border-radius:1.1rem;
+    color: #ffff;
+}
+.fa-twitter::before{
+    background-color: #919496;
+    width: 20px;
+    border: #919496 solid 5px;
+    border-radius:1.1rem;
+    color: #ffff;
+}
+.fa-facebook::before{
+    background-color: #919496;
+    width: 20px;
+    border: #919496 solid 5px;
+    border-radius:1.1rem;
+    color: #ffff;
+}
+
 .footer-info{
     display: flex;
     justify-content: space-between;
